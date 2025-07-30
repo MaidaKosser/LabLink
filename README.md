@@ -1,6 +1,6 @@
 # LabLink 🧪
 
-LabLink is a web-based platform designed to streamline the process of booking lab tests and delivering results directly to users. Built using **React** and **Firebase**, this application provides a seamless experience for both users and labs.
+LabLink is a platform designed to streamline the process of booking lab tests and delivering results directly to users. Built using **React** and **Firebase**, this application provides a seamless experience for both users and labs.
 
 ## 🎯 Objective
 
