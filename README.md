@@ -1,40 +1,52 @@
-🛒 Point of Sale (POS) System
-A fully functional Point of Sale system for small-scale retail environments such as shops, grocery stores, and service-based businesses.
+# LabLink 🧪
 
-📌 Objective
-To streamline and digitize the sales operations like product management, billing, and generating invoices for small retailers.
+LabLink is a web-based platform designed to streamline the process of booking lab tests and delivering results directly to users. Built using **React** and **Firebase**, this application provides a seamless experience for both users and labs.
 
-🧰 Technologies Used
-Frontend: HTML, CSS, JavaScript
+## 🎯 Objective
 
-Backend: PHP
+The main goal of this project is to make lab test bookings hassle-free by allowing users to:
+- Book lab tests online
+- Track status of their test
+- Receive reports digitally
 
-Database: MySQL
+This system can be used by:
+- Individual patients
+- Small-scale diagnostic labs
+- Healthcare service providers
 
-UI/UX: Figma 👀 View Prototype
+## 🧠 Features
 
-▶️ How to Run
-Clone the repository
+- User Authentication
+- Lab test booking
+- Real-time database updates
+- Report delivery and tracking
+- Admin dashboard (optional for labs)
 
-Import the database into MySQL
+## 💻 Technologies Used
 
-Run the project on XAMPP/WAMP
+| Technology | Purpose |
+|------------|---------|
+| React.js   | Frontend development |
+| Firebase  | Backend (Authentication, Firestore DB, Hosting) |
 
-Open the project folder in browser (e.g. localhost/pos-system)
+## 🚀 How to Run Locally
 
-🏨 Hotel Management System
-An OOP-based Hotel Management System to handle reservations, customer details, and room availability efficiently.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/lablink.git
+   cd lablink
+   
+2. **Install Dependencies**
 
-📌 Objective
-To automate hotel operations including booking, check-in/check-out, and room management.
+npm install
 
-🧰 Technologies Used
-Language: C++
+3.**Set Up Firebase**
 
-Concepts: Object-Oriented Programming, File Handling
+Go to Firebase Console
 
-▶️ How to Run
-Compile using any C++ IDE (like CodeBlocks or Dev C++)
+Create a project and enable Firestore, Authentication
 
-Run the main.cpp file
+Replace your Firebase config inside the project (firebaseConfig.js)
 
+4.**Run the Project**
+npx expo start
