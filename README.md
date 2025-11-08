@@ -32,22 +32,19 @@ This system can be used by:
 ## How to Run Locally
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/MaidaKosser/lablink.git
-   cd lablink
-   
-2. **Install Dependencies**
+ ```bash
+git clone https://github.com/MaidaKosser/lablink.git
+cd lablink
+```
 
+3. **Install Dependencies**
+```
 npm install
+```
 
-3.**Set Up Firebase**
-
-Go to Firebase Console
-
-Create a project and enable Firestore, Authentication
-
-Replace your Firebase config inside the project (firebaseConfig.js)
-
-4.**Run the Project**
+3. **Run the Project**
+```
 npx expo start
+
+```
 
