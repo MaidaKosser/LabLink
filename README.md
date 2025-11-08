@@ -1,8 +1,8 @@
-# LabLink 🧪
+# LabLink
 
 LabLink is a platform designed to streamline the process of booking lab tests and delivering results directly to users. Built using **React** and **Firebase**, this application provides a seamless experience for both users and labs.
 
-## 🎯 Objective
+## Objective
 
 The main goal of this project is to make lab test bookings hassle-free by allowing users to:
 - Book lab tests online
@@ -14,7 +14,7 @@ This system can be used by:
 - Small-scale diagnostic labs
 - Healthcare service providers
 
-## 🧠 Features
+## Features
 
 - User Authentication
 - Lab test booking
@@ -29,11 +29,11 @@ This system can be used by:
 | React.js   | Frontend development |
 | Firebase  | Backend (Authentication, Firestore DB, Hosting) |
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/lablink.git
+   git clone https://github.com/MaidaKosser/lablink.git
    cd lablink
    
 2. **Install Dependencies**
@@ -50,3 +50,4 @@ Replace your Firebase config inside the project (firebaseConfig.js)
 
 4.**Run the Project**
 npx expo start
+
